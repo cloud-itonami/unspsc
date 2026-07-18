@@ -1,0 +1,13 @@
+{:actor/id "unspsc"
+ :actor/display-name "UNSPSC commodity actor fleet"
+ :actor/tier :tier-b
+ :actor/status :active
+ :actor/purpose "Data-driven commodity capability actors for all 18,342 canonical UNSPSC codes"
+ :actor/runtime :kotodama-organism
+ :actor/count 18342
+ :actor/lexicons ["com.etzhayyim.unspsc.processManifest"]
+ :actor/adr ["2605231501" "2606161200" "2606172100"]
+ :actor/invariants [:edn-canonical
+                    :no-hollow-stubs
+                    :murakumo-only-inference
+                    :append-only-kotoba-datom-history]}

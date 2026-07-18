@@ -1,0 +1,5 @@
+{:identity/id "did:web:etzhayyim.com:actor:unspsc"
+ :identity/actor "unspsc"
+ :identity/commodity-did-template "did:web:etzhayyim.com:actor:c{unspsc-code}"
+ :identity/canonical-document "manifest.edn"
+ :identity/canonical-format :edn}

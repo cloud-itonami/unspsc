@@ -1,0 +1,13 @@
+{:dependencies
+ [{:dependency/id etzhayyim/root
+   :dependency/repository "https://github.com/etzhayyim/root"
+   :dependency/revision "1962fafef7d66189e36914a40ed86f07d760aa94"
+   :dependency/paths ["00-contracts/actor-registry/unispsc.json"
+                      "80-data/unspsc_v26_ucalypt.jsonl"
+                      "90-docs/adr"]}
+  {:dependency/id com-junkawasaki/kotodama
+   :dependency/revision "6edd850c23c02cf4a07e8a2acb6cb443f0f0afab"}
+  {:dependency/id kotoba-lang/langgraph
+   :dependency/revision "a75fe35038dc9218e26b7da4940989cd13754769"}
+  {:dependency/id kotoba-lang/langchain
+   :dependency/revision "cda206ea2cbe709e134cb7198f85f0eae1993c96"}]}
