@@ -20,6 +20,6 @@
   :fleet {:main-opts ["-m" "unspsc.fleet"]}
   ;; Flat west workspace development from orgs/etzhayyim/com-etzhayyim-unspsc.
   :dev {:override-deps
-        {io.github.com-junkawasaki/kotodama     {:local/root "../../com-junkawasaki/kotodama"}
+        {io.github.com-junkawasaki/kotodama     {:local/root "../../kotoba-lang/kotodama"}
          io.github.com-junkawasaki/langgraph-clj {:local/root "../../kotoba-lang/langgraph"}
          io.github.com-junkawasaki/langchain-clj {:local/root "../../kotoba-lang/langchain"}}}}}
