@@ -1,0 +1,7 @@
+{:repo/id "cloud-itonami/unspsc"
+ :repo/plane :role
+ :repo/role :commodity-organism-fleet
+ :repo/catalog "cloud-itonami/org-unspsc"
+ :repo/consumer-family "cloud-itonami-unspsc-*"
+ :repo/compatibility-identities ["did:web:etzhayyim.com:actor:unspsc"
+                                 "com.etzhayyim.unspsc.*"]}

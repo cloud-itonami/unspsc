@@ -18,7 +18,7 @@
   :enrich {:extra-deps {org.clojure/data.json {:mvn/version "2.5.0"}}
            :main-opts ["-m" "unspsc.enrich"]}
   :fleet {:main-opts ["-m" "unspsc.fleet"]}
-  ;; Flat west workspace development from orgs/etzhayyim/com-etzhayyim-unspsc.
+  ;; Flat west workspace development from orgs/cloud-itonami/unspsc.
   :dev {:override-deps
         {io.github.com-junkawasaki/kotodama     {:local/root "../../kotoba-lang/kotodama"}
          io.github.com-junkawasaki/langgraph-clj {:local/root "../../kotoba-lang/langgraph"}
