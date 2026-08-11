@@ -1,5 +1,11 @@
 # unspsc — UNSPSC commodity actor
 
+**Repository**: `cloud-itonami/unspsc`
+
+The source catalog boundary is `cloud-itonami/org-unspsc`; this repository owns
+the executable commodity-organism fleet. Historical commodity DIDs and
+`com.etzhayyim.*` namespaces remain compatibility identities.
+
 The concrete **18,342 UNSPSC commodity actors** = the generic `kotodama` organism
 runtime + a per-code data table + a segment-capability library. One framework +
 data → every UNSPSC code is a real, commodity-specific, deployable actor (no hollow
