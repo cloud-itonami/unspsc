@@ -5,7 +5,12 @@
  ;; in kotodama; this actor injects its domain (capability/run + the result shape).
  ;; Persisted as-of on the kotoba Datom log. Per the ADR superseding 2606131645.
  ;;   kotodama      — generic organism runtime (transitively: langgraph-clj + langchain-clj)
- :deps {io.github.com-junkawasaki/kotodama
+ :deps {
+        ;; kotoba.lang.text, not clojure.string. Pinned as an explicit floor:
+        ;; tools.deps takes the NEWEST sha it is shown, so without a floor here
+        ;; this repo silently rides whatever a sibling happens to name.
+        io.github.kotoba-lang/text {:git/sha "73bdb13ae7a3d004b44bca08be03a3191157a38f"}
+       io.github.com-junkawasaki/kotodama
         {:git/tag "v0.1.0" :git/sha "802a04d"}}
  :aliases
  {:test {:extra-paths ["test"]
