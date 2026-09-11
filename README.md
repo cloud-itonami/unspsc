@@ -44,9 +44,9 @@ under `wire/` as an external protocol projection.
 ## Use
 
 ```bash
-clojure -X:test                 # 39 tests / 212 assertions (kotodama as a git dep)
-clojure -X:test -A:dev          # … against the local kotodama checkout (main checkout only)
-clojure -M:fleet 200            # subset fleet sweep
+kbb -X:test                 # 39 tests / 212 assertions (kotodama as a git dep)
+kbb -X:test -A:dev          # … against the local kotodama checkout (main checkout only)
+kbb -M:fleet 200            # subset fleet sweep
 ```
 
 Inference is Murakumo-only at runtime (ADR-2605215000). Apache-2.0 + Charter Rider.
